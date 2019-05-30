@@ -1,0 +1,79 @@
+h1 {text-align:center}
+body {
+	font-family:  sans-serif;
+	padding: 20px; text-align:left;
+}
+form#formtest {
+	background: lightgrey;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	width: 75%;
+    margin-left:10%;
+    margin-right: 15%;
+    position:absolute;
+}
+form#formtest fieldset {
+	border: none;
+	margin-bottom: 10px;
+    float:left;
+}
+
+
+}
+
+label {
+    float:left;
+    width:auto;
+    text-align:right;
+    padding: 12px;
+    margin-top: 12px;
+    clear:left;
+    display:inline-block;
+}
+
+form#formtest fieldset#submit input:hover {
+	cursor: pointer;
+}
+form#formtest fieldset#improvements input:hover {cursor: pointer;}
+
+
+form#formtest input:not([type=checkbox]),textarea, select {
+	background: #ffffff;
+	border: none;
+	border-radius: 3px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	outline: none;
+	padding: 5px;
+	width: 300px;
+    display:block;
+    margin: 12px;
+}
+form#formtest input:not([type=submit]):focus,
+form#formtest textarea:focus {
+	border: solid 2px blue;
+}
+form#formtest input[type=checkbox] {
+	float: left;
+	margin-right: 5px;
+}
+fieldset {width:70%; position:relative; float:left;}
+
+ul {list-style-type:none;}
+
+
+}
+
+#formtest {
+    background-color: #ccc;
+    width: 80%;
+   margin: 12px 10%;
+    
+}
+body { 
+background-color:darkseagreen;}
+#submit{
+    margin-left: 150px;
+    padding: 15px
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Cool Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Silver City Survey</h1>
+    <form id="formtest" name="formtest" method="post" action="https://elearn.usu.edu/courses/itls-5265/forms/form_results.php">
+  
+      
+  <fieldset id="reason">
+<label for=primaryreason>1.  Select the primary reason you visit Silver City:</label> <br>
+   <select name="primaryreason" id="primaryreason"> 
+    <option value="Resident">I am a resident of Silver City</option>
+    <option value="work"> I work in Silver City</option>
+    <option value="visit to shop">I visit Silver City to shop or visit businesses</option>
+    <option value="Tourist"> Tourist - Vacation</option>
+    <option value="Other">Other</option>
+      </select> </fieldset>
+
+  <fieldset id="zipcode">
+  <label for="zipcode">2.  Zipcode:</label>
+  <input type="text" name="zipcode" id="zipcode" pattern="[0-9] {5}"></fieldset>
+
+  <fieldset id="visits">
+  <label for="visits">3.  How often do you visit Silver City?</label>
+<select name="visits" id="visits">
+    <option value="Resident">I live here</option>
+    <option value="several times a week">Several times a week</option> 
+    <option value="several times a month">Several times a month</option>
+    <option value="several times a year">Several times a year</option>
+    <option value="once a year or less">Once a year or less</option>
+    <option value="I never visit SC">I never visit Silver City</option>
+      </select>
+     </fieldset>
+        
+        
+    <fieldset id="improvements">  
+  <label for="improvements">4. What would make down town Silver City more attractive to visit (check all that apply):</label><br>
+      <ul>
+    <li><input type="checkbox" name="option 1[]" value="restaurants">More restaurants</li>
+   <li> <input type="checkbox" name="option 2[]" value="stores">More specialty stores</li>
+   <li> <input type="checkbox" name="option 3[]" value="tourist shops">More tourist type shops</li>
+   <li> <input type="checkbox" name="option 4[]" value="professional businesses">More professional businesses</li>
+   <li> <input type="checkbox" name="option 5[]" value="parking">Additional parking</li>
+   <li> <input type="checkbox" name="option 6[]" value="bus route">A bus route from nearby hotels or popular tourist spots</li>
+    <li><input type="checkbox" name="option 7[]" value="face lift">Give the place a face lift</li>
+   <li> <input type="checkbox"  name="option 8[]" value="concerts and events">Concerts and events held downtown</li>
+   <li> <input type="checkbox" name="option 9[]" value="less tourists">Less tourists and more places for locals</li>
+        </ul>
+        </fieldset>
+ <fieldset id="comments"> <label for="comments">5. Additional comments or suggestions:</label>
+    <textarea name="Comments" id="comments" rows="10" cols="50">Comments here...</textarea>
+</fieldset>
+        
+<fieldset id="subscription">
+   
+   <label for="subscribe">6. Subscribe to recieve occasional information on what is happening in down town Silver City:</label>
+        <input type="email" name="email" id="subscribe" >
+       </fieldset>
+        
+    <fieldset id="submit">
+    <input type="submit" value="Submit">
+        </fieldset>
+
+    </form>
+</body>
+</html>
